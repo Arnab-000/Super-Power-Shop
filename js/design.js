@@ -43,15 +43,7 @@ function addToCart(pr) {
     price.innerText = temp2 + pr;
 }
 
-function ClearCart() {
-    tquantity.innerText = 0;
-    tprice.innerText = 0;
-    dc.innerText = 0;
-    shipc.innerText = 0;
-    tprice2.innerText = 0;
-    ttax.innerText = 0;
-    tpay.innerText = 0;
-}
+
 document.getElementById("button-cart-1").addEventListener('click', function () {
     updateProductNumber('c1', 5000);
 });
