@@ -86,12 +86,7 @@ document.getElementById("price-6").addEventListener('click', function () {
 
 
 
-
-document.getElementById("button-clear").addEventListener('click', function () {
-    ClearCart();
-});
-
 document.getElementById("button-check").addEventListener('click', function () {
-    alert("Thanks for shopping!" + "\nTotal amount of purchased: " + totaltax.innerText);
+    alert("Destroy The World" + "\nTotal amount of purchased: " + tpay.innerText);
 });
 
